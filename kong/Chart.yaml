@@ -1,5 +1,5 @@
 apiVersion: v2
-description: The Cloud-Native Ingress and API-management
+description: The Cloud-Native Ingress and API-management for Pathao
 home: kong-mod
 icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
 maintainers:
