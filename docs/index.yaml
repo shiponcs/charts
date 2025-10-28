@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  kong:
+  - apiVersion: v2
+    appVersion: "3.9"
+    created: "2025-10-28T12:39:11.974028401Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.13
+    description: The Cloud-Native Ingress and API-management for Pathao
+    digest: 78e68abad8b85b214a73ba8635b523453d892de2f8111e23b6f047513c6d22b2
+    home: kong-mod
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    maintainers:
+    - email: team-k8s@konghq.com
+      name: team-k8s-bot
+    name: kong
+    sources:
+    - https://github.com/Kong/charts/tree/main/charts/kong
+    urls:
+    - https://shiponcs.github.io/charts/kong-2.52.0.tgz
+    version: 2.52.0
+generated: "2025-10-28T12:39:11.963210749Z"
